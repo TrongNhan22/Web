@@ -1,0 +1,385 @@
+/* --------------------------------------------------SLIDER------------------------------------------------------- */
+/* điều chỉnh lại các thuộc tính trong bootstrap của Đạt*/
+.carousel-control-next, .carousel-control-prev {
+    width: 4%;
+    height: 8%;
+    opacity: 1;
+    /* top và transform là dùng để căn giữa */
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* các class đã tạo trong phần của Đạt */
+/* caption */
+.caption {
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    /* top, left và transform là dùng để căn giữa */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.carousel_explore_btn{
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, orange, #8d4fff);
+    transition: background-image 0.5s linear;
+    border-image-slice: 1;
+}
+.carousel_explore_btn:hover {
+    background-image: linear-gradient(to right, #8d4fff, orange);
+}
+/* xong phần caption */
+/* hai nút chuyển slide */
+.carousel_control_btn_custom {
+    border: 4px solid white;
+    border-radius: 12px;
+    margin: 0 4rem;
+}
+.carousel_control_btn_custom:hover {
+    cursor: pointer;
+    border-image: linear-gradient(to right, orange, #8d4fff);
+    border-image-slice: 1;
+}
+/* xong hai nút chuyển slide */
+/* 3 nút chuyển slide */
+.carousel_slide_control {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 24rem;
+    height: 4rem;
+    margin: 0 2rem 2rem 0;
+}
+.carousel_slide_btn {
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 0 0 1rem;
+}
+.carousel_slide_btn:hover {
+    cursor: pointer;
+    border-image: linear-gradient(to right, orange, #8d4fff);
+    border-image-slice: 1;
+}
+/* xong 3 nút chuyển slide */
+/* ------------------------------------------------------OPTION-FORM--------------------------------------------- */
+.option_form {
+    height: 20rem;
+    background-image: linear-gradient(to right, orange, #8d4fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.upper_form {
+    position: absolute;
+    height: 10rem;
+    top:-10rem;
+}
+.upper_form button {
+    height: inherit;
+    padding: 3rem;
+    width: max-content;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    margin: 0 -4px;
+    font-size: 2rem;
+}
+.upper_form button:hover {
+    background-color: #fa9e1b;
+    color: white;
+}
+.upper_form button:first-child {
+    border-top-left-radius: 50px;
+}
+.upper_form button:last-child {
+    border-top-right-radius: 50px;
+}
+.option_form form {
+    display: flex;
+    flex-direction:row;
+    justify-content: start;
+    font-size: 1.5rem;
+    color: white;
+}
+.option_form form input {
+    height: 3.5rem;
+    width: 17.5rem;
+    margin: 1rem 0;
+}
+.option_form form input[type^="Submit"] {
+    width: 12rem;
+    height: 5rem;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(65, 2, 65);
+    border: none;
+    margin: 2rem 4rem;
+}
+.option_form form input[type^="Submit"]:hover {
+    background-color:#74482f ;
+}
+
+/* -----------------------------------------------------BEST TOUR------------------------------------------------ */
+/* điều chỉnh lại các thuộc tính trong bootstrap của Đạt*/
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card-title {
+    font-size: 3rem;
+}
+.card-text{
+    font-size: 2rem;
+}
+/* các class đã tạo trong phần của Đạt */
+.best_tour {
+    margin-bottom: 8rem;
+}
+.best_tour_desc {
+    text-align: center;
+}
+.best_tour_desc h2 {
+    font-size: 40px;
+    margin: 4rem;
+}
+.best_tour_desc p {
+    width: 70vw;
+    margin: 4rem auto;
+    line-height: 30px;
+    color: thistle;
+    font-size: 2rem;
+    font-style: italic
+}
+.card-body {
+    color: white;
+}
+.card_picture_1{
+    background-image: url(../img/xintro_1.jpg.pagespeed.ic.vc2WNRX2pm.jpg);
+    background-size: cover;
+    height: 40rem;
+}
+.card_picture_2{
+    background-image: url(../img/xintro_2.jpg.pagespeed.ic.T0_SEU16mo.webp);
+    background-size: cover;
+    height: 40rem;
+}
+.card_picture_3{
+    background-image: url(../img/xintro_3.jpg.pagespeed.ic.56ahj3oq2s.jpg);
+    background-size: cover;
+    height: 40rem;
+}
+.best_tour_date {
+    background-color: #fa9e1c;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: white;
+    margin: auto;
+}
+.bi-star-fill {
+    color: #d8d7d1;
+    font-size: 1.5rem;
+}
+.yellow_star {
+    color: yellow;
+}
+.bi-star-fill:hover {
+    color: rgb(233, 114, 71);
+}
+.yellow_star:hover{
+    color: rgb(233, 114, 71);
+}
+.best_tour_btn {
+    width: 18rem;
+    height: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, orange, #8d4fff);
+    transition: background-image 0.5s linear;
+    border-image-slice: 1;
+    margin: auto;
+}
+.best_tour_btn:hover {
+    background-image: linear-gradient(to right,#8d4fff , orange);
+}
+/* ------------------------------------------------------------------ DELUXE PACKAGE------------------------------------------- */
+/* dùng thẻ deluxe_package làm nền bên dưới sau đó cho thẻ img đè lên trên */
+.deluxe_package {
+    background-image: linear-gradient(to right, orange, #8d4fff);
+    height: 70rem;
+    position: relative;
+}
+.deluxe_package img {
+    height: 70rem;
+    opacity: 0.5;
+}
+.deluxe_content {
+    position: absolute;
+    width: 80%;
+    height: 50rem;
+    background-color: white;
+    text-align: center;
+    padding: 6rem;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.deluxe_package h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 3rem;
+}
+.deluxe_rate {
+    margin: 1rem;
+}
+.deluxe_package p {
+    font-size: 1.5rem;
+    margin: 0 0 4rem 0;
+}
+.deluxe_package_btn {
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, orange, #8d4fff);
+    transition: background-image 0.5s linear;
+    border-image-slice: 1;
+    margin: auto;
+}
+.deluxe_package_btn:hover {
+    background-image: linear-gradient(to right, #8d4fff, orange);
+}
+
+/* -------------------------------------------------------------------------------------------------RESPONSIVE--------------------------------------------------------- */
+/* trừ dòng html ra thì các dòng còn lại trong media đều là copy paste */
+@media (max-width: 1600px) and (min-width:1220px){
+    html{
+        font-size: 10px;
+    }
+    .option_form {
+        flex-direction: column;
+        height: 100rem;
+    }
+    .upper_form {
+        position: unset;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+    .upper_form button {
+        padding: 2rem;
+        width: 100rem;
+        text-align: left;
+        font-weight: bold;
+    }
+    .upper_form button:first-child, .upper_form button:last-child {
+        border-radius: 0;
+    }
+    .upper_form button i {
+        color: #fa9e1b;
+    }
+    .option_form form{
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .option_form form input {
+        width: 100rem;
+    }
+    .option_form form input[type^="Submit"] {
+        margin: 2rem 4rem 2rem 0;
+    }
+}
+@media (max-width :1219px) and (min-width:740px) {
+    html {
+        font-size: 8px;
+    }
+    .option_form {
+        flex-direction: column;
+        height: 100rem;
+    }
+    .upper_form {
+        position: unset;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+    .upper_form button {
+        padding: 2rem;
+        width: 100rem;
+        text-align: left;
+        font-weight: bold;
+    }
+    .upper_form button:first-child, .upper_form button:last-child {
+        border-radius: 0;
+    }
+    .upper_form button i {
+        color: #fa9e1b;
+    }
+    .option_form form{
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .option_form form input {
+        width: 100rem;
+    }
+    .option_form form input[type^="Submit"] {
+        margin: 2rem 4rem 2rem 0;
+    }
+}
+@media (max-width:740px) {
+    html {
+        font-size: 4px;
+    }
+    .option_form {
+        flex-direction: column;
+        height: 100rem;
+    }
+    .upper_form {
+        position: unset;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+    .upper_form button {
+        padding: 2rem;
+        width: 100rem;
+        text-align: left;
+        font-weight: bold;
+    }
+    .upper_form button:first-child, .upper_form button:last-child {
+        border-radius: 0;
+    }
+    .upper_form button i {
+        color: #fa9e1b;
+    }
+    .option_form form{
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .option_form form input {
+        width: 100rem;
+    }
+    .option_form form input[type^="Submit"] {
+        margin: 2rem 4rem 2rem 0;
+    }
+}
