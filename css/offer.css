@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    width: 100%; 
+    overflow-x: hidden;
+}
+.form-div {
+    height: 400px;
+    background-image: linear-gradient(to right, orange, #8d4fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    bottom: 5px;
+    margin-top: 15px;
+}
+.top-form{
+    display: flex;
+    gap: 2%;
+    width: 80%;
+    color: white;
+    font-size: 13px;
+}
+.destination-form .destination-box1>input{
+    width: 250px;
+    height: 40px;
+    color: rgb(155, 151, 151);
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.destination-form .destination-box2>input,.destination-form .destination-box3>input{
+    width: 200px;
+    height: 40px;
+    color: rgb(155, 151, 151);
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.destination-form .destination-box4 select,.destination-form .destination-box5 select{
+    width: 100px;
+    height: 40px;
+    color: rgb(155, 151, 151);
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+}
