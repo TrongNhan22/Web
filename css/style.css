@@ -1,3 +1,4 @@
+
 /* --------------------------------------------------SLIDER------------------------------------------------------- */
 /* điều chỉnh lại các thuộc tính trong bootstrap của Đạt*/
 .carousel-control-next, .carousel-control-prev {
@@ -88,13 +89,13 @@
 }
 .upper_form button {
     height: inherit;
-    padding: 1rem;
+    padding: 2rem;
     width: max-content;
     cursor: pointer;
     background-color: white;
     border: none;
     margin: 0 -4px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .upper_form button:hover {
     background-color: #fa9e1b;
@@ -115,7 +116,7 @@
 }
 .option_form form input {
     height: 2rem;
-    width: 7.5rem;
+    width: 10rem;
     margin: 1rem 0;
 }
 .option_form form input[type^="Submit"] {
@@ -125,7 +126,7 @@
     border-radius: 30px;
     background-color: rgb(65, 2, 65);
     border: none;
-    margin: 2rem 4rem;
+    margin: 2rem 0 2rem 3rem;
 }
 .option_form form input[type^="Submit"]:hover {
     background-color:#74482f ;
@@ -193,14 +194,20 @@
     color: #d8d7d1;
     font-size: 1.5rem;
 }
-.yellow_star {
-    color: yellow;
-}
 .bi-star-fill:hover {
     color: rgb(233, 114, 71);
 }
-.yellow_star:hover{
-    color: rgb(233, 114, 71);
+.color_star_1{
+    color: #ffeb8d;
+}
+.color_star_2{
+    color: #fed46b;
+}
+.color_star_3{
+    color: #fbb53d;
+}
+.color_star_4{
+    color: #fa9e1b;
 }
 .best_tour_btn {
     width: 14rem;
@@ -269,9 +276,52 @@
 .deluxe_package_btn:hover {
     background-image: linear-gradient(to right, #8d4fff, orange);
 }
+/* ----------------------------------------------------------------THE BEST OFFERS WITH ROOMS----------------------------------------- */
+.best_offers, .offer_body {
+    background-color: whitesmoke;
+}
+.best_offers h2 {
+    padding: 3rem 0;
+}
+.img-fluid_custom {
+    max-width: 100%;
+    height: 100%;
+}
+.offer_img{
+    position: relative;
+}
+.img_location {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    color: black;
+    background-color: rgb(255, 165, 38);
+    bottom: 10%;
+    text-align: center;
+    line-height: 2;
+}
+.offer_title {
+    color: rgb(237, 168, 74);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.offer_title span {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.offer_content {
+    font-size: 1rem;
+}
+.offer_read_more {
+    color: black;
+    text-decoration: none;
+}
+.offer_read_more:hover {
+    color: rgb(237, 168, 74);
+}
 
 /* -------------------------------------------------------------------------------------------------RESPONSIVE--------------------------------------------------------- */
-/* trừ dòng html ra thì các dòng còn lại trong media đều là copy paste */
 @media (max-width :1024px) and (min-width:740px) {
     html {
         font-size: 10px;
@@ -310,6 +360,17 @@
     .option_form form input[type^="Submit"] {
         margin: 2rem 4rem 2rem 0;
         width: 12rem;
+    }
+    .img_location {
+        position: absolute;
+        width: 25%;
+        height: 10%;
+        color: black;
+        background-color: rgb(255, 165, 38);
+        bottom: 10%;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 2;
     }
 }
 @media (max-width:740px) {
@@ -350,5 +411,32 @@
     .option_form form input[type^="Submit"] {
         width: 12rem;
         margin: 2rem 4rem 2rem 0;
+    }
+    .offer_title {
+        font-size: 4rem;
+    }
+    .offer_title span {
+        font-size: 2.8rem;
+    }
+    .offer_rate,
+    .offer_icon{
+        font-size: 2.8rem;
+    }
+    .offer_content {
+        font-size: 3rem;
+    }
+    .offer_read_more {
+        font-size: 2.8rem;
+    } 
+    .img_location {
+        position: absolute;
+        width: 25%;
+        height: 5%;
+        color: black;
+        background-color: rgb(255, 165, 38);
+        top: 56%;
+        font-size: 3rem;
+        text-align: center;
+        line-height: 2;
     }
 }
