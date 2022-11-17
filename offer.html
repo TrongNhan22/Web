@@ -4,69 +4,350 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/c14fc2b87b.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/b479d3cb73.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/052942d93d.js" crossorigin="anonymous"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">  
     <link rel="stylesheet" href="./css/offer.css">
     <title>Offer</title>
 </head>
-<body>
-    <div class="form-div">
-        <form class="destination-form">
-            <div class="top-form">
-                <div class="destination-box1">
-                    <label for="destination">DESTINATION</label><br>
-                    <input type="text">
-                </div>
-                <div class="destination-box2">
-                    <label for="ckeckin">CHECK IN</label><br>
-                    <input type="date">
-                </div>
-                <div class="destination-box3">
-                    <label for="ckeckout">CHECK OUT</label><br>
-                    <input type="date">
-                </div>
-                <div class="destination-box4">
-                    <label for="adultnumber">ADULT</label><br>
-                    <select name="adult" id="adults">
-                        <option value="1">01</option>
-                        <option value="2">02</option>
-                        <option value="3">03</option>
-                    </select>
-                </div>
-                <div class="destination-box5">
-                    <label for="childrennumber">CHILDREN</label><br>
-                    <select name="adult" id="children">
-                        <option value="1">01</option>
-                        <option value="2">02</option>
-                        <option value="3">03</option>
-                    </select>
-                </div>
+    <body>
+        <div class="options-form">
+            <div class="form-div">
+                <form class="destination-form">
+                    <div class="top-form">
+                        <div class="destination-box1">                
+                            <label for="destination">DESTINATION</label><br>
+                            <input type="text">
+                        </div>
+                        <div class="destination-box2">
+                            <label for="checkin">CHECK IN</label><br>
+                            <input type="date">
+                        </div>
+                        <div class="destination-box3">
+                            <label for="checkout">CHECK OUT</label><br>
+                            <input type="date">
+                        </div>
+                        <div class="destination-box4">
+                            <label for="adultNumber">ADULT</label><br>
+                            <select name="adult" id="adults1">
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                            </select>
+                        </div>
+                        <div class="destination-box5">
+                            <label for="childrenNumber">CHILDREN</label><br>
+                            <select name="adult" id="children1">
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="destination-radio-buttons">
+                        <div class="radio-box">
+                            <input type="checkbox" name="pet-box" id="pet1"><span>Pet Friendly</span>                       
+                        </div>
+                        <div class="radio-box">
+                            <input type="checkbox" name="pet-box" id="pet2"><span>Car Parking</span>                       
+                        </div>
+                        <div class="radio-box">
+                            <input type="checkbox" name="pet-box" id="pet3"><span>Wireless Internet</span>                       
+                        </div>
+                        <div class="radio-box">
+                            <input type="checkbox" name="pet-box" id="pet4"><span>Reservations</span>                       
+                        </div>
+                        <div class="radio-box">
+                            <input type="checkbox" name="pet-box" id="pet5"><span>Private Parking</span>                       
+                        </div>
+                        <div class="radio-box">
+                            <input type="checkbox" name="pet-box" id="pet6"><span>Smoking Area</span>                       
+                        </div>
+                        <div class="radio-box">
+                            <input type="checkbox" name="pet-box" id="pet7"><span>Wheelchair Accessible</span>                       
+                        </div>
+                        <div class="radio-box">
+                            <input type="checkbox" name="pet-box" id="pet8"><span>Pool</span>                       
+                        </div>
+                    </div>
+                    <div class="load-more">
+                        <p class="loadMore">+ LOAD MORE OPTIONS</p>
+                        <div class="extra_options">
+                            <div class="radio-box">
+                                <input type="checkbox" name="pet-box" id="pet9"><span>Pet Friendly</span>                       
+                            </div>
+                            <div class="radio-box">
+                                <input type="checkbox" name="pet-box" id="pet10"><span>Car Parking</span>                       
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destination-box6">
+                        <input type="submit" value="SEARCH . . .">
+                    </div>
+                </form>
             </div>
-            <div class="destination-radio-buttons">
-                <div class="radio-box">
-                    <input type="checkbox" name="pet-box" id="pet1"><span>Pet Friendly</span>                       
-                </div>
-                <div class="radio-box">
-                    <input type="checkbox" name="pet-box" id="pet2"><span>Car Parking</span>                       
-                </div>
-                <div class="radio-box">
-                    <input type="checkbox" name="pet-box" id="pet3"><span>Wireless Internet</span>                       
-                </div>
-                <div class="radio-box">
-                    <input type="checkbox" name="pet-box" id="pet4"><span>Reservations</span>                       
-                </div>
-                <div class="radio-box">
-                    <input type="checkbox" name="pet-box" id="pet5"><span>Private Parking</span>                       
-                </div>
-                <div class="radio-box">
-                    <input type="checkbox" name="pet-box" id="pet6"><span>Smoking Area</span>                       
-                </div>
-                <div class="radio-box">
-                    <input type="checkbox" name="pet-box" id="pet7"><span>Wheelchair Accessible</span>                       
-                </div>
-                <div class="radio-box">
-                    <input type="checkbox" name="pet-box" id="pet8"><span>Pool</span>                       
-                </div>
-            </div>
-        </form>
+        </div> 
+
+    <!--_____________________________________ DROP BOXES and Filter______________________________________ -->
+
+
+    <div class="filter-div">
+        <div class="filters">
+            <ul>
+                <li>PRICE<i class="fas fa-angle-down"></i>
+                    <div class="sub-menu1">
+                        <ul>
+                            <li>SHOW ALL</li>
+                            <li class="ascending">ASCENDING</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>LOCATION<i class="fas fa-angle-down"></i>
+                    <div class="sub-menu2">
+                        <ul>
+                            <li>DEFAULT</li>
+                            <li>ALPHABETIC</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>STARS<i class="fas fa-angle-down"></i>
+                    <div class="sub-menu3">
+                        <ul>
+                            <li>SHOW ALL</li>
+                            <li>ASCENDING</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>DISTANCE FROM CENTER<i class="fas fa-angle-down"></i>
+                    <div class="sub-menu4">
+                        <ul>
+                            <li>DISTANCE</li>
+                            <li>DISTANCE</li>
+                            <li>DISTANCE</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>REVIEWS<i class="fas fa-angle-down"></i>
+                    <div class="sub-menu5">
+                        <ul>
+                            <li>REVIEW</li>
+                            <li>REVIEW</li>
+                            <li>REVIEW</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
+
+
+    <!-- CARDS_____________________________ -->
+
+    <div class="best-offers">
+        <!-- <div class="heading">
+            <h2>THE BEST OFFERS WITH ROOMS</h2>
+        </div> -->
+        <div class="offers-grid">
+            <div class="grid1 all-grid">
+                <div class="box1">
+                    <img src="./img/img_offers/grandcaste.jpg" alt="">
+                    <div class="offer-title">
+                        GRAND CASTLE
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="offers_price">$70<span>per night</span></div>
+                    <div class="star">
+                        <i class="fa fa-star star1"></i>
+                        <i class="fa fa-star star2"></i>
+                        <i class="fa fa-star star3"></i>
+                        <i class="fa fa-star star4"></i>
+                        <i class="fa fa-star star5"></i>
+                    </div>
+                    <div class="point-div">
+                        <div class="review-point">
+                            <div class="text">
+                                <p><span>VERY GOOD</span><br>100 reviews</p>
+                            </div>
+                            <div>
+                                <h1>8.1</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-desciption">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum voluptatem tempore numquam minus nisi ullam. Minima excepturi, inventore illum eaque   </p>
+                    </div>
+
+                    <div class="icon">
+                        
+                    </div>
+                    <div class="read-more"><button class="book-now">BOOK ...</button></div>
+                </div>
+            </div>
+            <div class="grid2 all-grid">
+                <div class="box1">
+                    <img src="./img/img_offers/img2.jfif" alt="">
+                    <div class="offer-title">
+                        EUROSTAR HOTEL
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="offers_price">$50<span>per night</span></div>
+                    <div class="star">
+                        <i class="fa fa-star star1"></i>
+                        <i class="fa fa-star star2"></i>
+                        <i class="fa fa-star star3"></i>
+                        <i class="fa fa-star star4"></i>
+                        <i class="fa fa-star star5"></i>
+                    </div>
+                    <div class="point-div">
+                        <div class="review-point">
+                            <div class="text">
+                                <p><span>VERY GOOD</span><br>100 reviews</p>
+                            </div>
+                            <div>
+                                <h1>8.1</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-desciption">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum voluptatem tempore numquam minus nisi ullam. Minima excepturi, inventore illum eaque   </p>
+                    </div>
+
+                    <div class="icon">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp" alt="">
+                    </div>
+                    <div class="read-more"><button class="book-now">BOOK ...</button></div>
+                </div>
+            </div>
+            <div class="grid3 all-grid">
+                <div class="box1">
+                    <img src="./img/img_offers/img2.jfif" alt="">
+                    <div class="offer-title">
+                        GRAND CASTLE
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="offers_price">$110<span>per night</span></div>
+                    <div class="star">
+                        <i class="fa fa-star star1"></i>
+                        <i class="fa fa-star star2"></i>
+                        <i class="fa fa-star star3"></i>
+                        <i class="fa fa-star star4"></i>
+                        <i class="fa fa-star star5"></i>
+                    </div>
+                    <div class="point-div">
+                        <div class="review-point">
+                            <div class="text">
+                                <p><span>VERY GOOD</span><br>100 reviews</p>
+                            </div>
+                            <div>
+                                <h1>8.1</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-desciption">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum voluptatem tempore numquam minus nisi ullam. Minima excepturi, inventore illum eaque   </p>
+                    </div>
+
+                    <div class="icon">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp" alt="">
+                    </div>
+                    <div class="read-more"><button class="book-now">BOOK ...</button></div>
+                </div>
+            </div>
+            <div class="grid4 all-grid">
+                <div class="box1">
+                    <img src="./img/img_offers/grandcaste.jpg" alt="">
+                    <div class="offer-title">
+                        GRAND CASTLE
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="offers_price">$50<span>per night</span></div>
+                    <div class="star">
+                        <i class="fa fa-star star1"></i>
+                        <i class="fa fa-star star2"></i>
+                        <i class="fa fa-star star3"></i>
+                        <i class="fa fa-star star4"></i>
+                        <i class="fa fa-star star5"></i>
+                    </div>
+                    <div class="point-div">
+                        <div class="review-point">
+                            <div class="text">
+                                <p><span>VERY GOOD</span><br>100 reviews</p>
+                            </div>
+                            <div>
+                                <h1>8.1</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-desciption">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum voluptatem tempore numquam minus nisi ullam. Minima excepturi, inventore illum eaque   </p>
+                    </div>
+
+                    <div class="icon">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp" alt="">
+                    </div>
+                    <div class="read-more"><button class="book-now">BOOK ...</button></div>
+                </div>
+            </div>
+            <div class="grid5 all-grid">
+                <div class="box1">
+                    <img src="./img/img_offers/img2.jfif" alt="">
+                    <div class="offer-title">
+                        EUROSTAR HOTEL
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="offers_price">$90<span>per night</span></div>
+                    <div class="star">
+                        <i class="fa fa-star star1"></i>
+                        <i class="fa fa-star star2"></i>
+                        <i class="fa fa-star star3"></i>
+                        <i class="fa fa-star star4"></i>
+                        <i class="fa fa-star star5"></i>
+                    </div>
+                    <div class="point-div">
+                        <div class="review-point">
+                            <div class="text">
+                                <p><span>VERY GOOD</span><br>100 reviews</p>
+                            </div>
+                            <div>
+                                <h1>8.1</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-desciption">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum voluptatem tempore numquam minus nisi ullam. Minima excepturi, inventore illum eaque   </p>
+                    </div>
+
+                    <div class="icon">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp" alt="">
+                        <img src="https://preview.colorlib.com/theme/travelix/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp" alt="">
+                    </div>
+                    <div class="read-more"><button class="book-now">BOOK ...</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
